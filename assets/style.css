@@ -1,4 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Quicksand:wght@400;500;600;700&display=swap");
+
 * {
-  padding: 0px;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --white: #ffffff;
+  --primary: #072196;
+  --secondary: #00c8eb;
+  --space: 1.5;
+}
+p {
+  font-size: medium;
+  line-height: var(--space);
+}
+p#satu {
+  text-indent: 2em;
+}
+h1 {
+  margin: 2em;
+  font-size: 1.5em;
+  line-height: var(--space);
+}
+h2,
+h3 {
+  color: var(--primary);
+  line-height: var(--space);
+}
+body {
+  font-family: "Quicksand", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  display: inline;
+}
+.jumbotron {
+  padding: 60px;
+  background-color: var(--secondary);
+  text-align: center;
+  font-size: 20px;
+  color: var(--white);
+}
+nav {
+  background-color: var(--primary);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav a {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--white);
+}
+nav a:hover {
+  color: var(--secondary);
+}
+main {
+  display: flex;
+  /* background-color: rgb(25, 87, 104); */
+  padding: 20px;
+  overflow: auto;
+}
+aside {
+  float: left;
+  width: 25%;
+  padding-right: 20px;
+  text-align: center;
+}
+.profile {
+  width: 70%;
+  border-radius: 20px;
+}
+figcaption {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+figcaption > a {
+  text-decoration: none;
+}
+figcaption > a:hover {
+  text-decoration: underline;
+}
+div#content {
+  float: right;
+  width: 75%;
+  text-align: justify;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+footer {
+  padding: 20px;
+  color: var(--white);
+  background-color: var(--secondary);
+  text-align: center;
+  font-weight: bold;
+}
+@media screen and (max-width: 1024px) {
+  main {
+    display: block;
+  }
+  aside,
+  div#content {
+    width: 100%;
+  }
 }
