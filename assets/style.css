@@ -25,13 +25,13 @@ h1 {
   font-size: 1.5em;
   line-height: var(--space);
 }
-h1 > a {
+.judul a {
   text-decoration: none;
   color: var(--primary);
   display: flex;
   justify-content: center;
 }
-h1 > a:hover {
+.judul a:hover {
   color: var(--secondary);
 }
 h2,
