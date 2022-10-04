@@ -13,9 +13,11 @@
 p {
   font-size: medium;
   line-height: var(--space);
+  margin-bottom: 10px;
 }
 p#satu {
   text-indent: 2em;
+  text-align: justify;
 }
 h1 {
   margin: 1em;
@@ -30,16 +32,15 @@ h3 {
 body {
   font-family: "Nunito", sans-serif;
 }
-/* header {
+header {
   display: inline;
-} */
+}
 .judul a {
   text-decoration: none;
   color: var(--primary);
   display: flex;
   justify-content: center;
   cursor: pointer;
-  overflow: hidden;
 }
 .judul a:hover {
   color: var(--secondary);
@@ -92,13 +93,17 @@ figcaption {
 div#content {
   float: right;
   width: 75%;
-  text-align: justify;
 }
 .card {
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
+}
+.banner {
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px 0px;
 }
 footer {
   padding: 20px;
