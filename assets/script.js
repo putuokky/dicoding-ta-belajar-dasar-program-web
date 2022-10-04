@@ -1,4 +1,3 @@
-
 // button hamburger menu
 document.getElementsByClassName("toggle-navbar")[0].addEventListener("click", toogleClass);
 function toogleClass() {
