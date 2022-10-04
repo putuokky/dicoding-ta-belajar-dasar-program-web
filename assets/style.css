@@ -22,6 +22,17 @@ h1 {
   font-size: 1.5em;
   line-height: var(--space);
 }
+h2,
+h3 {
+  color: var(--primary);
+  line-height: var(--space);
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+/* header {
+  display: inline;
+} */
 .judul a {
   text-decoration: none;
   color: var(--primary);
@@ -32,17 +43,6 @@ h1 {
 }
 .judul a:hover {
   color: var(--secondary);
-}
-h2,
-h3 {
-  color: var(--primary);
-  line-height: var(--space);
-}
-body {
-  font-family: "Nunito", sans-serif;
-}
-header {
-  display: inline;
 }
 nav {
   background-color: var(--primary);
