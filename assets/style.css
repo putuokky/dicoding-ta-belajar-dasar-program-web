@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Quicksand:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -27,6 +27,7 @@ h1 {
   color: var(--primary);
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 .judul a:hover {
   color: var(--secondary);
@@ -37,7 +38,7 @@ h3 {
   line-height: var(--space);
 }
 body {
-  font-family: "Quicksand", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 header {
   display: inline;
@@ -84,12 +85,8 @@ aside {
 figcaption {
   margin-top: 5px;
   margin-bottom: 5px;
-}
-figcaption > a {
-  text-decoration: none;
-}
-figcaption > a:hover {
-  text-decoration: underline;
+  font-weight: 600;
+  font-size: 20px;
 }
 div#content {
   float: right;
@@ -97,7 +94,7 @@ div#content {
   text-align: justify;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
