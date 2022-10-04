@@ -28,6 +28,7 @@ h1 {
   display: flex;
   justify-content: center;
   cursor: pointer;
+  overflow: hidden;
 }
 .judul a:hover {
   color: var(--secondary);
