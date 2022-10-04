@@ -60,13 +60,13 @@ nav li {
   list-style-type: none;
   margin-right: 20px;
 }
-nav a {
+.menu a {
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   color: var(--white);
 }
-nav a:hover {
+.menu a:hover {
   color: var(--secondary);
 }
 main {
