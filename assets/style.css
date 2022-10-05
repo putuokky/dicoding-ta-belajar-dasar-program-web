@@ -118,7 +118,8 @@ div#content {
 .wisata-image {
   border-radius: 10px;
   object-fit: cover;
-  height: 265px;
+  height: 200px;
+  width: 230px;
 }
 .caption-wisata {
   text-align: center;
@@ -141,8 +142,16 @@ footer {
   .grid-container {
     grid-template-columns: auto auto;
   }
+  .caption-wisata {
+    flex-wrap: wrap;
+  }
+  /* .grid-item {
+    display: flex;
+    width: 100px;
+  } */
   /* .wisata-image {
-    width: 278px;
+    height: auto;
+    width: 200px;
   } */
 }
 @media screen and (max-width: 640px) {
