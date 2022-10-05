@@ -9,15 +9,16 @@
   --primary: #072196;
   --secondary: #00c8eb;
   --space: 1.5;
+  --round: 15px;
 }
 p {
   font-size: medium;
   line-height: var(--space);
-  margin-bottom: 10px;
 }
 p#satu {
   text-indent: 2em;
   text-align: justify;
+  margin-bottom: 10px;
 }
 h1 {
   margin: 1em;
@@ -66,7 +67,8 @@ nav li {
   text-decoration: none;
   color: var(--white);
 }
-.menu a:hover {
+.menu a:hover,
+.menu a.active {
   color: var(--secondary);
 }
 main {
@@ -82,7 +84,7 @@ aside {
 }
 .profile {
   width: 70%;
-  border-radius: 20px;
+  border-radius: var(--round);
 }
 figcaption {
   margin-top: 5px;
@@ -95,14 +97,14 @@ div#content {
   width: 75%;
 }
 .card {
-  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: var(--round);
   padding: 20px;
   margin-top: 20px;
 }
 .banner {
   width: 100%;
-  border-radius: 10px;
+  border-radius: var(--round);
   margin: 20px 0px;
 }
 .grid-container {
@@ -116,10 +118,9 @@ div#content {
   text-align: center;
 }
 .wisata-image {
-  border-radius: 10px;
+  border-radius: var(--round);
   object-fit: cover;
-  height: 200px;
-  width: 230px;
+  height: 85px;
 }
 .caption-wisata {
   text-align: center;
@@ -145,14 +146,10 @@ footer {
   .caption-wisata {
     flex-wrap: wrap;
   }
-  /* .grid-item {
-    display: flex;
-    width: 100px;
-  } */
-  /* .wisata-image {
-    height: auto;
-    width: 200px;
-  } */
+  .wisata-image {
+    height: 200px;
+    width: 230px;
+  }
 }
 @media screen and (max-width: 640px) {
   nav ul {
