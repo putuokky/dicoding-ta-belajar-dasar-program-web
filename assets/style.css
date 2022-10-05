@@ -88,7 +88,7 @@ figcaption {
   margin-top: 5px;
   margin-bottom: 5px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
 }
 div#content {
   float: right;
@@ -105,6 +105,24 @@ div#content {
   border-radius: 10px;
   margin: 20px 0px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+.grid-item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.wisata-image {
+  border-radius: 10px;
+  object-fit: cover;
+  height: 265px;
+}
+.caption-wisata {
+  text-align: center;
+}
 footer {
   padding: 20px;
   color: var(--white);
@@ -120,6 +138,12 @@ footer {
   div#content {
     width: 100%;
   }
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+  /* .wisata-image {
+    width: 278px;
+  } */
 }
 @media screen and (max-width: 640px) {
   nav ul {
@@ -169,5 +193,12 @@ footer {
   .hamburger-menu.open span:nth-child(3) {
     top: 14px;
     transform: rotate(-135deg);
+  }
+  .grid-container {
+    grid-template-columns: auto;
+  }
+  .wisata-image {
+    width: 100%;
+    height: auto;
   }
 }
