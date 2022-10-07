@@ -14,8 +14,8 @@ Berikut sketsa dari struktur website yang bisa dijadikan referensi untuk mengerj
 ![gambar referensi untuk mengerjakan submission](https://d17ivq9b7rppb3.cloudfront.net/original/academy/201912201353083e09e5a62ad3d25699611878328847ee.png)
 
 > **Tips**: 
-1. Ketika melakukan import suatu resource pada file HTML, pastikan untuk menggunakan **relative path**, dan hindari menggunakan **absolute path** karena berpotensi menyebabkan resource tersebut tidak dapat dibaca ketika dilakukan reviu. Berikut adalah contohnya :
+> 1. Ketika melakukan import suatu resource pada file HTML, pastikan untuk menggunakan **relative path**, dan hindari menggunakan **absolute path** karena berpotensi menyebabkan resource tersebut tidak dapat dibaca ketika dilakukan reviu. Berikut adalah contohnya :
 **Absolute path** : C:\Users\Documents\Projects\styles\style.css **atau** /home/user/Projects/styles/style.css
 **Relative path** : styles/style.css
-2. Masih dalam topik yang sama mengenai asset/resource, pastikan dalam penulisan nama file atau folder **sama persis** dengan keadaan sebenarnya. Misalnya pada folder proyek, ada gambar dengan nama profile.jpg, maka harus di import juga dengan nama **profile.jpg** (bukan **Profile.jpg**). Hal ini bertujuan agar beberapa file tersebut bisa dimuat dengan baik oleh browser pada beberapa Sistem Operasi, seperti Linux.
-3. Agar memudahkan Anda dalam membuat submission, gunakanlah IDE (Integrated Development Environtment) yang mendukung produktivitas dalam menuliskan kode. Misalnya **Atom**, **VSCode**, atau yang lainnya.
+> 2. Masih dalam topik yang sama mengenai asset/resource, pastikan dalam penulisan nama file atau folder **sama persis** dengan keadaan sebenarnya. Misalnya pada folder proyek, ada gambar dengan nama profile.jpg, maka harus di import juga dengan nama **profile.jpg** (bukan **Profile.jpg**). Hal ini bertujuan agar beberapa file tersebut bisa dimuat dengan baik oleh browser pada beberapa Sistem Operasi, seperti Linux.
+> 3. Agar memudahkan Anda dalam membuat submission, gunakanlah IDE (Integrated Development Environtment) yang mendukung produktivitas dalam menuliskan kode. Misalnya **Atom**, **VSCode**, atau yang lainnya.
