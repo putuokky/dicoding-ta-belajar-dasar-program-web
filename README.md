@@ -2,16 +2,16 @@
 # Kriteria
 ## Kriteria Submission
   Berikut kriteria submission yang harus Anda penuhi:
-  * Terdapat elemen <header>, <footer>, <main>, <article>, dan <aside> di berkas HTML
+  * Terdapat elemen `<header>`, `<footer>`, `<main>`, `<article>`, dan `<aside>` di berkas HTML
   * Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep semantic HTML dalam menyusun struktur website).
   Sebagai contoh: Header berisi judul dan navigation. Sedangkan konten artikel tidak boleh berada pada Header.
-  * Wajib menampilkan identitas diri (biodata diri) yang minimal harus berisi foto asli diri dan nama sesuai profil Dicoding. Identitas diri wajib ditampilkan dalam elemen <aside>.
+  * Wajib menampilkan identitas diri (biodata diri) yang minimal harus berisi foto asli diri dan nama sesuai profil Dicoding. Identitas diri wajib ditampilkan dalam elemen `<aside>`.
   * Menyusun layout dengan menggunakan float atau flexbox.
   * Tema yang ditampilkan bebas, **kecuali** tema Bandung.
   * Semakin detail dan lengkap website Anda maka nilai submission bisa lebih tinggi.
 
 Berikut sketsa dari struktur website yang bisa dijadikan referensi untuk mengerjakan submission, namun tidak diwajibkan asalkan memenuhi kriteria submission:
-![gambar referensi untuk mengerjakan submission](https://d17ivq9b7rppb3.cloudfront.net/original/academy/201912201353083e09e5a62ad3d25699611878328847ee.png)
+![gambar referensi untuk mengerjakan submission](assets/img/gambar%20referensi.png)
 
 > **Tips**: 
 > 1. Ketika melakukan import suatu resource pada file HTML, pastikan untuk menggunakan **relative path**, dan hindari menggunakan **absolute path** karena berpotensi menyebabkan resource tersebut tidak dapat dibaca ketika dilakukan reviu. Berikut adalah contohnya :
