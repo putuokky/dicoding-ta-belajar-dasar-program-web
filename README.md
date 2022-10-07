@@ -11,6 +11,7 @@
   * Semakin detail dan lengkap website Anda maka nilai submission bisa lebih tinggi.
 
 Berikut sketsa dari struktur website yang bisa dijadikan referensi untuk mengerjakan submission, namun tidak diwajibkan asalkan memenuhi kriteria submission:
+
 ![gambar referensi untuk mengerjakan submission](assets/img/gambar%20referensi.png)
 
 > **Tips**: 
